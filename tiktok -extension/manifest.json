@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "TikTok Helper",
+  "version": "1.0",
+  "description": "TikTok videolarını loqosuz yükləmək üçün eklenti",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "downloads"
+  ],
+  "host_permissions": [
+    "*://*.tiktok.com/*",
+    "https://www.tikwm.com/*"
+  ]
+}
